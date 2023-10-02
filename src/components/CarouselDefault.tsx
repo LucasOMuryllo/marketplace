@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "@material-tailwind/react";
 
 // A ideia com esse componente era fazer com que os produtos passassem pela tela como um carousel.
-// porém, iria acabar tomando um desnecessário.. ele esta funcional, basta importar ele para dentro do App.tsx
+// porém, iria acabar tomando um tempo desnecessário.. ele esta funcional, basta importar ele para dentro do App.tsx
 
 type CarouselImage = {
     src: string;

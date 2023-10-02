@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavbarSimple } from "./components/Navbar";
 import { FooterWithSocialLinks } from "./components/FooterWithSocialLinks";
 import ProductList from "./components/ProductList";
@@ -26,10 +26,10 @@ type FilterTypes = {
 };
 
 function App() {
-  const [originalProducts, setOriginalProducts] = useState<Product[]>([]);
+  const [, setOriginalProducts] = useState<Product[]>([]);
   const [products, setProducts] = useState<Product[]>([]);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [filters, setFilters] = useState<FilterTypes>({
+  const [, setSearchTerm] = useState("");
+  const [, setFilters] = useState<FilterTypes>({
     Acessorio: false,
     Camiseta: false,
     Calcao: false,
