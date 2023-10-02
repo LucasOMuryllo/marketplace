@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["@types/headlessui__react"],
     "target": "es5",
     "lib": [
       "dom",
